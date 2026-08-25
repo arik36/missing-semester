@@ -471,7 +471,7 @@ server:
   debug: false
 ```
 
-A good right-hand rule for thinking about configuration is that the same codebase should be deployable to different environments (development, staging, production) with only configuration changes, never code changes.
+A good rule of thumb for thinking about configuration is that the same codebase should be deployable to different environments (development, staging, production) with only configuration changes, never code changes.
 
 Among the many configuration options there is often sensitive data such as API keys.
 Secrets need to be handled with care to avoid exposing them accidentally, and must not be included in version control.
